@@ -426,7 +426,8 @@ breseq -r final_closed_assemblies/C289WT-31C7.gbk reads_trimmed/C289c1_Clon_1_va
 breseq -r final_closed_assemblies/K229new-30C6.gbk reads_trimmed/K229c5_val_1.fq.gz reads_trimmed/K229c5_val_2.fq.gz -o variants_breseq_closed/ref_K229_map_K229c5
 breseq -r final_closed_assemblies/K165WT.gbk reads_trimmed/K165c5_val_1.fq.gz reads_trimmed/K165c5_val_2.fq.gz -o variants_breseq_closed/ref_K165_map_K165c5
 ```
-ABRicate v1.0.1 with the plasmidfinder database was used to confirm no other plasmid was eliminated from the cured strains.
+
+ABRicate v1.0.1 with the plasmidfinder and resfinder databases was used to confirm clonality and isogenicity between within-patient evolved and cured strains.
 
 ```sh
 for fq1 in reads_trimmed/*val_1.fq.gz
