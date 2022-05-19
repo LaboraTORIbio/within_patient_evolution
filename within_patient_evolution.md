@@ -9,7 +9,7 @@ mkdir -p plasmid_variants_J53/reads_trimmed/reads_raw
 mkdir -p within_patient_evol_cured/reads_trimmed/reads_raw
 mkdir within_patient_evol_cured/reads_nanopore
 mkdir -p Reads_pOXA-48_carriers/reads_raw
-# For storing the GenBank file pOXA-48_K8.gb ()
+# For storing the GenBank file pOXA-48_K8.gb
 mkdir -p closed_sequences/plasmids
 ```
 
