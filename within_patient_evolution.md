@@ -5,7 +5,7 @@ The following directories were created in the current working directory to store
 ```sh
 # For section: 'De novo assembling and genomic analysis of E. coli J53 carrying different PVs'
 mkdir -p plasmid_variants_J53/reads_trimmed/reads_raw
-# For sections: 'Assembly and analysis of pOXA-48 variants in cases of within-patient evolution' and 'Construction of phylogenetic trees'
+# For sections: 'Analysis of within-patient evolution strains' and 'Construction of phylogenetic trees'
 mkdir -p within_patient_evol_cured/reads_trimmed/reads_raw
 mkdir within_patient_evol_cured/reads_nanopore
 mkdir -p Reads_pOXA-48_carriers/reads_raw
@@ -183,7 +183,7 @@ abricate --summary resistance_abricate/* > resistance_abricate/summary_resistanc
 ```
 
 
-# Assembly and analysis of pOXA-48 variants in cases of within-patient evolution
+# Analysis of within-patient evolution strains
 
 ## Generating closed genomes
 
